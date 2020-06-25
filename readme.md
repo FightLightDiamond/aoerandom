@@ -33,7 +33,8 @@ aoe.getCountryRandom()
 ```
 Get team random
 ```$xslt
-aoe.getTeamRandom()
+const teamSize = 8
+aoe.getTeamRandom(teamSize)
 ```
 Create Vue component example with command
 ```$xslt
