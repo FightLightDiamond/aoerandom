@@ -1,10 +1,11 @@
 {
   "name": "aoerandom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
-    "aoerandom": "commands/aoerandom.js"
+    "aoerandom": "commands/aoerandom.js",
+    "aoerandomdev": "commands/template.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
