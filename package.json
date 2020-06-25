@@ -1,0 +1,23 @@
+{
+  "name": "aoerandom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "aoerandom": "commands/aoerandom.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AOE",
+    "GAME",
+    "RANDOM",
+    "JS",
+    "Age of Empires",
+    "CUONGPM",
+    "FightLightDiamond"
+  ],
+  "author": "FightLightDiamond",
+  "license": "ISC"
+}
