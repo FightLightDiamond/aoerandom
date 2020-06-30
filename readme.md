@@ -6,7 +6,12 @@ npm i aoerandom
 ```
 
 ## Use 
-### Command 
+### Command for dev
+Install global
+
+```angular2
+npm i -g aoerandom
+```
 Run command with parameter to random from 1 to 8
 ```$xslt
 aoerandom <number>
@@ -22,10 +27,10 @@ Example Result
 7 'Egyptian'
 8 'Shang'
 ```
-### Develop
+### Develop with interface
 Require package
 ```$xslt
-const aoe = require('../index.js')
+const aoe = require('aoerandom')
 ```
 Get a country random
 ```$xslt
@@ -36,11 +41,13 @@ Get team random
 const teamSize = 8
 aoe.getTeamRandom(teamSize)
 ```
+
+## Render component template, use for VUE
 Create Vue component example with command
 ```$xslt
 aoerandomdev
 ```
-AoeComponent.vue is content
+AoeComponent.vue was created. Which is content
 ```$xslt
 <template>
     <div>
