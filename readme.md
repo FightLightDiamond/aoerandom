@@ -41,11 +41,16 @@ Get team random
 const teamSize = 8
 aoe.getTeamRandom(teamSize)
 ```
+When random can duplicate country. So get team random unique country
+```angular2
+aoe.getTeamRandomUnique(8)
+```
 
-## Render component template, use for VUE
+## Render component template
+### Use for VUE
 Create Vue component example with command
 ```$xslt
-aoerandomdev
+aoerandomdev vue
 ```
 AoeComponent.vue was created. Which is content
 ```$xslt
@@ -99,8 +104,9 @@ AoeComponent.vue was created. Which is content
     }
 </script>
 
-<style scoped>
-
-</style>
-
+```
+### Use for React native
+Create React native component example with command
+```$xslt
+aoerandomdev reactNative
 ```

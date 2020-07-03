@@ -36,5 +36,20 @@ getTeamRandom = (length) => {
     return countries;
 }
 
+getTeamRandomUnique = (length) => {
+    let countries = [];
+
+    while (length > 0) {
+        const item = getCountryRandom()
+        if (countries.includes(item) === false) {
+            countries.push(item)
+            --length;
+        }
+    }
+
+    return countries;
+}
+
+exports.getTeamRandomUnique = getTeamRandomUnique
 exports.getCountryRandom = getCountryRandom
 exports.getTeamRandom = getTeamRandom
